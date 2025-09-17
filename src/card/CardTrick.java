@@ -82,7 +82,7 @@ public class CardTrick {
         boolean cardFound = false;
         for (int i=0; i<magicHand.length; i++) {
             Card card = magicHand[i];
-            if (card.getValue() == luckyCard.getValue() && luckyCard.getSuit().equals(luckyCard.getSuit())){
+            if (card.getValue() == luckyCard.getValue() && card.getSuit().equals(luckyCard.getSuit())){
                 cardFound = true;
                 break;
             }
