@@ -77,7 +77,7 @@ public class CardTrick {
         // add one luckcard hard code 2,clubs
         Card luckyCard = new Card();
         luckyCard.setValue(7);
-        luckyCard.setSuit("Clubs");
+        luckyCard.setSuit("Diamonds");
         
         boolean cardFound = false;
         for (int i=0; i<magicHand.length; i++) {
