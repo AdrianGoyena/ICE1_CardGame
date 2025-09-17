@@ -14,13 +14,25 @@ public class CardTrick {
     
     public static void main(String[] args)
     {
+        /*
+        Need to print 7 cards
+        print :  clubs 3, diamonds 3
+        need to use array
+        */
+       /*Card c1 = new Card();
+        c1.setSuit("diamond");
+        c1.setValue(1); */
+        
         Card[] magicHand = new Card[7];
         
         for (int i=0; i<magicHand.length; i++)
         {
             Card c = new Card();
+            c.setSuit(random number);
             //c.setValue(insert call to random number generator here)
             //c.setSuit(Card.SUITS[insert call to random number between 0-3 here])
+            //[] = c;
+            //print array of object
         }
         
         //insert code to ask the user for Card value and suit, create their card
